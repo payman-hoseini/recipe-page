@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "young";
+      font-weight: 400;
+      src: url(/src/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('ttf');
+    }
+    @font-face {
+        font-family: "outfit";
+        font-weight: 400;
+        src: url(/src/assets/fonts/outfit/static/Outfit-Regular.ttf) format('ttf');
+    }
+    @font-face {
+        font-family: "outfit";
+        font-weight: 600;
+        src: url(/src/assets/fonts/outfit/static/Outfit-Medium.ttf) format('ttf');
+    }
+    @font-face {
+        font-family: "outfit";
+        font-weight: 700;
+        src: url(/src/assets/fonts/outfit/static/Outfit-SemiBold.ttf) format('ttf');
+    }
+}
